@@ -105,7 +105,7 @@ p {
 }
 
 .headings a:hover:before{
-    width: 100%;
+    width: 50%;
     height: 100%;
     border: 0.3rem solid red;
     border-right: none; border-bottom: none;
@@ -115,7 +115,7 @@ p {
 }
 
 .headings a:hover:after{
-    width: 100%;
+    width: 50%;
     height: 100%;
     border: 0.3rem solid red;
     border-left: none; border-top: none;
@@ -153,6 +153,7 @@ p {
     text-align: center;
     padding: 8rem;
     border:0.4rem solid  yellow;
+    padding-bottom: 10rem;
 }
 
 
