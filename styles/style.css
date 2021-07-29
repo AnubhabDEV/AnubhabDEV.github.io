@@ -123,25 +123,14 @@ p {
 
 
 
+
 .Movies {
-    position: relative; 
-    height: 100vh;
-    width: 100%;
-    
-    align-items: center;
-    justify-content: center;
-}
-.Movies::before {
-    background-image: url("/images/pulpfiction-1627490685037-356.jpg");
-    content: "";
+    background-image: url("/images/yo.jpg");
     background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    box-shadow: 0 0 200px rgba(0.8,1.0,0.8,0.9) inset;
-    opacity: 0.35;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    padding-bottom: 2rem;
 }
 .Movies h1{
     position: relative;
@@ -149,7 +138,7 @@ p {
     font-family: 'Bungee Shade', cursive;
     text-align: center;
     padding: 8rem;
-    border:0.4rem solid  yellow;
+    
     padding-bottom: 10rem;
 }
 
