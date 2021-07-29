@@ -138,6 +138,8 @@ p {
     font-family: 'Bungee Shade', cursive;
     text-align: center;
     box-sizing: border-box;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
 
 }
 
