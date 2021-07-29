@@ -7,26 +7,14 @@
 }
 
 .headings{
-    position: relative; 
-    height: 100vh;
-    width: 100%;
-    
-    align-items: center;
-    justify-content: center;
-}
-.headings:before {
-    background-image: url("/images/Netflix-Background.jpg");
-    content: "";
+    background-image: url("/images/bckgndImage.jpg");
     background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    box-shadow: 0 0 200px rgba(0.8,0.8,0.8,0.9) inset;
-    opacity: 0.35;
-    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    padding-bottom: 2rem;
 }
+
 .headings h1{
     display: block;
     position: relative;
@@ -103,6 +91,15 @@ p {
     
 
 }
+@media only screen and (max-width: 600px) {
+    .headings a{
+      display: block;
+      padding: 1rem;
+      width: 60%;
+      margin: auto;
+      margin-bottom: 1rem; 
+    }
+  }
 
 .headings a:hover:before{
     width: 50%;
